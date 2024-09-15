@@ -1,10 +1,12 @@
 import React from 'react';
-import WhatsAppChatbot from '../components/WhatsAppChatbot';
+import WhatsAppChatbotConfigurator from '../components/WhatsAppChatbotConfigurator';
 
-export default function Home() {
-  return (
-    <div>
-      <WhatsAppChatbot />
-    </div>
-  );
-}
+const Home = () => {
+    return (
+      <div>
+        <WhatsAppChatbotConfigurator />
+      </div>
+    );
+};
+
+export default Home;
